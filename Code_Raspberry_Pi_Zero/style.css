@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ff8a80;
+    padding: 20px;
+    border-bottom: 5px solid #ff5252;
+}
+
+header h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff5252;
+}
+
+.data {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.action {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 1em;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff5252;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1744;
+}
+
+.camera {
+    margin: 20px;
+}
+
+.camera iframe {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+    margin: 20px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-link:hover {
+    background-color: #218838;
+}
