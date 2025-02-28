@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera et Musique</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Camera et Musique</h1>
+    </header>
+
+    <section id="video">
+        <h2>Flux Video</h2>
+        <img src="/video_feed" width="320" height="240">
+    </section>
+
+    <section id="music">
+        <h2>Controle de la Musique</h2>
+        <form id="musicForm">
+            <select id="track" name="track">
+                <option value="Berceuse">Berceuse</option>
+                <option value="Nature">Nature</option>
+                <option value="Calme">Calme</option>
+            </select>
+            <button type="button" onclick="playMusic()">Lire</button>
+            <button type="button" onclick="stopMusic()">Arreter</button>
+        </form>
+        <p id="musicStatus">Aucune musique en cours</p>
+    </section>
+
+    <script src="/script.js" defer></script>
+
+</body>
+</html>
