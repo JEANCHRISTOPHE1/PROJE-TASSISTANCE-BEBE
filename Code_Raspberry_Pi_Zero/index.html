@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistance Bebe</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tableau de Bord</h1>
+    </header>
+    <nav>
+        <a href="http://134.59.29.80:5000" class="btn-link">Acces de la video et de l'enceinte</a>
+    </nav>
+
+    <section id="sensor-data">
+        <h2>Capteurs</h2>
+        <div class="data">Temperature : <span id="temp">-- °C</span></div>
+        <div class="data">Humidite : <span id="humidity">-- %</span></div>
+        <div class="data">Luminosite : <span id="light">-- lux</span></div>
+        <div class="data">Bruit : <span id="noise">-- V</span></div>
+        <div class="data">Mouvement : <span id="movement">--</span></div>
+    </section>
+
+    <section id="ventilation">
+        <h2>Controle du Ventilateur</h2>
+        <p>Etat : <span id="fan-state">OFF</span></p>
+        <div class="action">
+            <button id="btn-niv1">Niveau 1</button>
+            <button id="btn-niv2">Niveau 2</button>
+            <button id="btn-niv3">Niveau 3</button>
+            <button id="btn-off">OFF</button>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="/script.js" defer></script>
+
+</body>
+</html>
